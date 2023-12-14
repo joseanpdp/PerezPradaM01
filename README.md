@@ -13,4 +13,12 @@ etc que debes utilizar en tu aplicación.
 ### Resultado
 #### Ventanas
 Este ejercicio solo tiene la siguiente ventana:
-![ventana principal del ejercicio](resourcesReadme/windowApp1.png){width=auto height=auto}
+
+![ventana principal del ejercicio](resourcesReadme/windowApp1.png)
+
+Esta ventana dispone de dos contenedores de texto y 3 botones:
+- Título de la ventana: **Contador**
+- Contador: **0**(en su estado actual)
+- Botón para restar un valor al *contador*: **-**
+- Botón para restablecer el valor del *contador*: **RESET**
+- Botón para sumar un valor al *contador*: **+**
