@@ -22,3 +22,4 @@ Esta ventana dispone de dos contenedores de texto y 3 botones:
 - Botón para restar un valor al *contador*: **-**
 - Botón para restablecer el valor del *contador*: **RESET**
 - Botón para sumar un valor al *contador*: **+**
+- Firma del autor: **By José Antonio Pérez de Prada**
