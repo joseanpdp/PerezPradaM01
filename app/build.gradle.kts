@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.perezdepradae01"
+    namespace = "com.vedruna.perezdepradae01"
     compileSdk = 33
 
     defaultConfig {
