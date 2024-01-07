@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#2F2F2F"
     android:visibility="visible"
-    tools:context=".MainActivity"
+    tools:context="com.example.perezPradaM01.MainActivity"
     tools:visibility="visible">
 
     <TextView
@@ -15,84 +15,92 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppins_bold"
         android:text="CONTADOR"
+        android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="64sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.099" />
+        app:layout_constraintVertical_bias="0.049" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_width="162dp"
+        android:layout_height="353dp"
         android:fontFamily="@font/poppins_thin"
         android:text="0"
+        android:textAlignment="center"
         android:textColor="#FFFFFF"
-        android:textSize="200sp"
+        android:textSize="250sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.417" />
+
+    <TextView
+        android:id="@+id/bienvenida"
+        android:layout_width="301dp"
+        android:layout_height="31dp"
+        android:text="Bienvenido"
+        android:textAlignment="center"
+        android:textColor="#ACABAB"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.961" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/button3"
         android:layout_width="110dp"
         android:layout_height="51dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="500dp"
         android:backgroundTint="#1B1B1B"
         android:text="-"
-        android:textAlignment="center"
         android:textSize="24sp"
         app:iconTint="#009688"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:cornerRadius="100dp" />
-
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="110dp"
-        android:layout_height="51dp"
-        android:layout_marginStart="140dp"
-        android:layout_marginTop="500dp"
-        android:backgroundTint="#1B1B1B"
-        android:text="RESET"
-        android:textSize="20sp"
-        app:iconTint="#009688"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.797"
         tools:cornerRadius="100dp" />
 
     <Button
         android:id="@+id/button8"
         android:layout_width="110dp"
         android:layout_height="51dp"
-        android:layout_marginStart="264dp"
-        android:layout_marginTop="500dp"
+        android:backgroundTint="#1B1B1B"
+        android:text="RESET"
+        android:textSize="20sp"
+        app:iconTint="#009688"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.797"
+        tools:cornerRadius="100dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="110dp"
+        android:layout_height="51dp"
         android:backgroundTint="#1B1B1B"
         android:text="+"
         android:textSize="24sp"
         app:iconTint="#009688"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.946"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.797"
         tools:cornerRadius="100dp" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="301dp"
-        android:layout_height="31dp"
-        android:text="TextView"
-        android:textAlignment="center"
-        android:textColor="#ACABAB"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="684dp"
-        tools:text="By José Antonio Pérez de Prada" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
